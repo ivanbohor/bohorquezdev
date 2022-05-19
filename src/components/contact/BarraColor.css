@@ -1,0 +1,20 @@
+.c-bg {
+    width: 20px;
+    height: 100%;
+    background-color: #f9c939;
+    position: absolute;
+}
+@media screen and (max-width: 468px) {
+    .c-bg{
+      width: 14px !important ;
+      height: 75% !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1080px){
+    .c-bg{
+        width: 16px !important ;
+      height: 55% !important;
+    
+ }
+}

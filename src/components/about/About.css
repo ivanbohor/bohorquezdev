@@ -1,0 +1,179 @@
+
+.a {
+height: 120vh;
+}
+.contAbout { 
+display: flex;
+flex-direction: column;
+}
+.bloque1{
+display: flex;
+justify-content: space-evenly;}
+.bloque2{
+display: flex;
+flex-direction: row-reverse;
+justify-content: space-evenly;
+}
+.text-up{
+  align-self: center;
+  text-align: center;
+  width: 50%;
+}  
+.text-down{
+  align-self: center;
+  text-align: center;
+  width: 50%;
+
+}
+
+
+.cel-img{
+  position: relative;
+  right: 7rem;
+}
+.mobilesimg{
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+.items-ico{
+  align-items: center;
+  display: inline-flex;
+}
+.text-sepa{
+  margin:2rem;
+}
+.text-sub{
+  margin: 1rem;
+}
+ 
+  
+  .a-card.bg {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: #333;
+  }
+  
+  .a-card {
+    width: 78%;
+    height: 59vh;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .a-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  @media screen and (max-width: 468px) {
+    
+    .text-fly2{
+      display: none;
+    }
+    .a {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+   }
+   .pcimg img{
+     width: 300px;
+     align-self: center;
+   }
+   .mobilesimg{
+    align-self: center;
+    display: flex;
+flex-direction: row-reverse;
+align-items: stretch;    
+   }
+   .mobilesimg img{
+     width: 150px;
+     
+   }
+   .bloque1{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.bloque2{
+  display: flex;
+    flex-direction: column-reverse;
+}
+.text-up{
+  width: 100%;
+}
+.text-up p{
+  font-size: 13px;
+  width: 90%;
+    margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+
+}
+.text-up h2{
+  padding: 1rem;
+  font-size: 28px;
+}
+.text-sepa{
+  display: none;
+}
+.items-ico{
+  display: flex;
+  font-size: 13px;
+  padding: 1.5rem;
+}
+.text-down{
+  width: 70%;
+  margin: 1rem;
+  padding: 1rem;
+}
+.pcimg{
+  align-self: center;
+}
+   
+.text-down p{
+  font-size: 15px;
+}
+.cel-img{
+  right:0rem;
+  width: 100px !important;
+}
+  }
+
+@media (min-width: 768px) and (max-width:1080px){
+  .contAbout{
+    
+    padding: 1rem;
+    margin: 1rem;
+
+  }
+    .a{
+        height: auto;
+    }
+    .pcimg img{
+      width: 300px;
+    }
+    .mobilesimg{
+      width: 45%;
+    }
+    .mobilesimg img{
+      width: 200px;
+    }
+    .text-down{
+      padding: 2.5rem;
+    }
+    .bloque2{
+      margin-top: 2rem;
+
+
+    }
+}
+@media (min-width: 1024px) and (max-width:1200px){
+  .a{
+height: auto;    }
+  
+}
