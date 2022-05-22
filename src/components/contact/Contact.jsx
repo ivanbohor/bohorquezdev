@@ -35,6 +35,7 @@ const darkMode = theme.state.darkMode
         });
     }
   return (
+      <section id="contact">
     <div className="c">
         <BarraColor/>
         <div className="c-wrapper">
@@ -59,8 +60,9 @@ const darkMode = theme.state.darkMode
             </div>
             <div className="c-right">
                 <p className="c-desc"  data-aos="fade-left">
-                    <b>What your history</b>lorem ipsum dolor sit lorem ipsum dolor sit amet,
-                </p>
+                    <b>Digitalicemos tu marca. </b> Ya sabes que pagina queres? Hagamosla!</p>
+                    <p>No estas seguro y necesitas asesoramiento? Charlemos sin compromiso</p>  
+                
                 <form ref={formRef} onSubmit={handleSubmit} >
                     <input style={{backgroundColor: darkMode && "#333",color: darkMode && "ghostwhite"}} type="text"  placeholder="Tu nombre" name="user_name"/>
                     <input style={{backgroundColor: darkMode && "#333",color: darkMode && "ghostwhite"}}  type="text"  placeholder="Asunto" name="user_subjet"/>
@@ -73,6 +75,7 @@ const darkMode = theme.state.darkMode
             </div>
         </div>
     </div>
+    </section>
   )
 }
 

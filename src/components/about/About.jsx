@@ -43,13 +43,8 @@ const About = () => {
           </div>
           <div className="text-down" data-aos="fade-right">
             <h2 className="text-sub">100% responsive!</h2>
-            <p>Ya sea un emprendimiento,un proyecto personal 
-              o tu portfolio laboral, tener tu propia pagina Web 
-              es primordial,
-              te destacara positivamente en cualquier ambito! </p>
-              
-
-            <p>lorem ipsum dolor sit amet  ipsum dolor sit amet</p>
+            <p><b>OPTIMIZADO </b>: Tu sitio web se adaptará a todos los dispositivos, es muy importante que se visualice correctamente desde teléfonos y tablets. </p>
+            <p> Tu sitio web estara optimizado, de carga rapida y funcional. </p>
           </div>
         </div>
         

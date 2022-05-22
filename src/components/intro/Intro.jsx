@@ -44,9 +44,12 @@ const Intro = () => {
             </div>
         <div className="i-right" data-aos="fade-left">
             <div className="i-bg"></div>
-            <img src={Perfil} alt="imagen" className="i-img" />
-            
+            <img src={Perfil} alt="imagen" className="i-img" /> 
+            <a href="#contact" className="button-intro">Hablemos</a>
+            <a href="#contact" className="button-intro-dos">Servicios</a>
+
         </div>
+        
     </div>
   )
 }

@@ -63,13 +63,13 @@
     bottom: 20px;
 }
 .i-img{
-    width: 70%;
+    width: 60%;
     height: auto;
     object-fit: cover;
     position: absolute;
     animation: movess 6s infinite ;
     bottom: 5rem;
-    left: 5rem;
+    left: 9rem;
 
 }
 .i-bg{
@@ -118,12 +118,47 @@
     align-items: center;
 }
 
+.button-intro{
+    border: none;
+    padding: 15px;
+    background-color:#cb4d09;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 20%;
+    position: absolute;
+    bottom: 50px;
+    right: 50%;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+.button-intro-dos{
+    right: 20%;
+    border: none;
+    padding: 15px;
+    background-color:#cb4d09;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 20%;
+    position: absolute;
+    bottom: 50px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+
+    
+}
+
+
 /* responsive  */
 @media screen and (max-width: 468px) {
     .i{
         width: 100%;
         flex-direction: column;
-        height: auto;
     }
     .i-left-wrapper{
         padding: 10px;
@@ -155,7 +190,8 @@ font-size: 27px;
         position: inherit;
         bottom: 0;
         width: 200px;
-        top: 2rem;
+        top: 6rem;
+        left: 5rem;
     }
     .text-fly {
         letter-spacing: 8px;
@@ -170,7 +206,12 @@ font-size: 27px;
 }
 @media  (min-width: 768px) and (max-width:1024px){
     .i{
-        height: auto;
+        flex-direction: column;
+    }
+    .i-img{
+        width: 40%;
+        bottom: 4rem;
+        left: 13rem;
     }
     @keyframes movess {
     25%{
@@ -185,7 +226,14 @@ font-size: 27px;
 }
 @media (min-width: 1024px) and (max-width:1200px){
     .i{
-height: auto;    }
+height: auto;  
+  }
+  .i-left-wrapper{
+      padding: 30px;
+  }
+  .text-fly2 {
+      display: none;
+  }
     .i-name{
         font-size: 54px;
     }
@@ -201,5 +249,8 @@ height: auto;    }
     }
     .i-img{
         width: 60%;
+    }
+    .c-bg {
+        height: 100% !important;
     }
 }
