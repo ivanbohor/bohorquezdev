@@ -13,6 +13,7 @@ const Intro = () => {
     }, [])
 
   return (
+<section id="intro"> 
     <div className="i"  >
         <div className="i-left" data-aos="fade-right">
             <div className="i-left-wrapper">
@@ -31,7 +32,7 @@ const Intro = () => {
                 </div>
                     <h2 className="text-fly">Despega tu marca</h2>
                     <h2 className="text-fly2">Amplia tu presencia en internet mediante una web moderna
-                    y actualizada, que atraiga a tu publico objetivo y genere confianza!</h2>
+                    y actualizada, que atraiga a tu publico objetivo y genere confianza.</h2>
                 <div className="text-yel" data-aos="fade-down-right">
                     <h3>Vendes un producto? Aumenta tus clientes!</h3>
                 </div>
@@ -45,12 +46,13 @@ const Intro = () => {
         <div className="i-right" data-aos="fade-left">
             <div className="i-bg"></div>
             <img src={Perfil} alt="imagen" className="i-img" /> 
-            <a href="#contact" className="button-intro">Hablemos</a>
-            <a href="#contact" className="button-intro-dos">Servicios</a>
+            <a href="#contact" className="button-intro"> Hablemos</a>
+            <a href="#serv" className="button-intro-dos">Servicios</a>
 
         </div>
         
     </div>
+    </section> 
   )
 }
 

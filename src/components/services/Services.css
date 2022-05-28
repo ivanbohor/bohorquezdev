@@ -2,7 +2,6 @@
     width:100%;
     height:auto;
     text-align: center;
-    padding: 1rem;
 }
 
 .cont-serv{
@@ -10,38 +9,18 @@
     display: flex;
     justify-content: space-evenly;    
     flex-wrap: wrap;
-    gap: 4rem;
+    gap: 1rem;
    
 }
+.ico-serv{
+    display: flex;
+    justify-content: center;
+}
+.ico-serv:hover{
+    transform: scale(1.1);
+}
 .item-serv{
-    display: 1;
-    width: 25%;
-    height: 400px;
-   background-image:url('../../img/desi1.png');
-    border-radius:20px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.item-serv2{
-    display: 1;
-    width: 25%;
-    height: 400px;
-   background-image:url('../../img/desi2.png');
-   border-radius:20px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.item-serv3{
-    display: 1;
-    width: 25%;
-    height: 400px;
-   background-image:url('../../img/desi1.png');
-   border-radius:20px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+width:  25%;   
 }
 
 .shadow-pop-bl {
@@ -59,10 +38,61 @@
     }
   }
 
+/*** ESTILOS BOTÓN SLIDE TOP ***/
+.ov-btn-slide-top {
+    background: #7ab68d; /* color de fondo */
+    color: white; /* color de fuente */
+    border: 2px solid black; /* tamaño y color de borde */
+    padding: 16px 20px;
+    border-radius:20px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+    }
+    .ov-btn-slide-top:hover {
+    color: #fff; /* color de fuente hover */
+    }
+    .ov-btn-slide-top::after {
+    content: "";
+    background: #f9c939; /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: 0;
+    right: 0;
+    top: -100%;
+    bottom: 100%;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+    }
+    .ov-btn-slide-top:hover::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+    }
+
+
   
   @media  (min-width: 768px) and (max-width:1024px){
     .cont-serv{
         gap: 7rem;
 
     }
+    .item-serv{
+        width: 30%;
     }
+    }
+
+    @media (min-width: 300px) and (max-width:767px){
+    .item-serv{
+        width: 55%;
+    }
+    .serv{
+        margin-top: 2rem;
+    }
+}

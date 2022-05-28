@@ -1,9 +1,9 @@
 .c{
-    height: 100vh;
+    height: 100%;
 }
 .c-bg{
     width: 20px;
-    height: 100%;
+    height: 77%;
     background-color: #f9c939;
     position: absolute;
 }
@@ -39,6 +39,7 @@ width: 70%;
 }
 .c-desc{
     font-weight: 200;
+    width:100%;
 }
 form{
     margin-top: 20px;
@@ -71,9 +72,10 @@ button{
     cursor: pointer;
     border-radius: 15px;
     width: 25%;
-
-
 }
+
+
+
 
 /* responsive  */
 @media screen and (max-width: 468px) {
@@ -94,7 +96,7 @@ button{
         margin: 1rem;
     }
     .c-title{
-        font-size: 20px;
+        font-size: 23px;
     }
     .c-info-item{
         margin: 20px 0px;
@@ -135,6 +137,9 @@ button{
         font-size: 32px;  }
         .c{
             height: auto;
+        }
+        .c-bg{
+            height: 90%;
         }
     
 }

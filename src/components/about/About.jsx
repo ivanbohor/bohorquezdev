@@ -16,6 +16,7 @@ const About = () => {
     });
 }, [])
   return (
+    <section id="serv"> 
     <div className="a">
       <BarraColor/>
       <div class="contAbout">
@@ -30,9 +31,10 @@ const About = () => {
               es primordial.</b></p> 
             <h3 class="text-sepa">Te destacara positivamente en cualquier ambito! </h3>
             <div className="items-ico">
-              <img src={iconc} alt="icon"/><span>Aumenta tu presencia digital</span>
-              <img src={iconc} alt="icon"/><span>Hace que mas potenciales clientes o compradores te conozcan!</span>
-              <img src={iconc} alt="icon"/> <span>Genera impacto y destacate de la competencia!</span>
+
+              <div className="item-i"> <img src={iconc} alt="icon"/><span>Aumenta tu presencia digital. Brindar una imagen seria y profesional es la mejor manera para abrir las puertas a nuevos clientes.</span></div>
+              <div className="item-i"> <img src={iconc} alt="icon"/><span>Transmiti confianza agregando valor a tu marca ya sea empresa, proyecto o servicios que prestes. </span></div>
+              <div className="item-i"> <img src={iconc} alt="icon"/> <span>Genera impacto y destacate de la competencia con un diseño web atractivo, dinámico y con un acabado impecable! </span></div>
             </div>
           </div>
         </div>
@@ -44,12 +46,14 @@ const About = () => {
           <div className="text-down" data-aos="fade-right">
             <h2 className="text-sub">100% responsive!</h2>
             <p><b>OPTIMIZADO </b>: Tu sitio web se adaptará a todos los dispositivos, es muy importante que se visualice correctamente desde teléfonos y tablets. </p>
-            <p> Tu sitio web estara optimizado, de carga rapida y funcional. </p>
+            <p> Tu sitio web estara optimizado, de carga rapida y funcional.
+            Diseñemos un sitio web moderno que se adapte a las personas, con una interfaz intuitiva para su usuario. </p>
           </div>
         </div>
         
       </div>
     </div>
+    </section>
   )
 }
 

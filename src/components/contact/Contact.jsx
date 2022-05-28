@@ -4,6 +4,10 @@ import "./BarraColor.jsx"
 
 import phone from "../../img/phone.png";
 import email from "../../img/email.png";
+import Whatic from "../../img/what.png"
+import Loca from "../../img/location (2).png"
+
+
 import emailjs from '@emailjs/browser';
 import { ThemeContext } from '../context';
 import BarraColor from './BarraColor.jsx';
@@ -45,7 +49,7 @@ const darkMode = theme.state.darkMode
                 </div>
                 <div className="c-info"  data-aos="fade-up">
                     <div className="c-info-item">
-                        <img src={phone} alt="phone" className="c-icon"/>
+                        <img src={Whatic} alt="phone" className="c-icon"/>
                         112342424
                     </div>
                     <div className="c-info-item">
@@ -53,15 +57,15 @@ const darkMode = theme.state.darkMode
                         ivan.oliveraetcetc
                     </div>
                     <div className="c-info-item">
-                        <img src={phone} alt="phone" className="c-icon"/>
-                        112342424
+                        <img src={Loca} width="25" alt="phone" className="c-icon"/>
+                        CABA,Arg
                     </div>
                 </div>
             </div>
             <div className="c-right">
-                <p className="c-desc"  data-aos="fade-left">
-                    <b>Digitalicemos tu marca. </b> Ya sabes que pagina queres? Hagamosla!</p>
-                    <p>No estas seguro y necesitas asesoramiento? Charlemos sin compromiso</p>  
+                <p className="c-desc" data-aos="fade-left">
+                    <b>Digitalicemos tu marca. </b> Ya sabes como queres que sea tu pagina web? Hagamosla! <br />
+                    Tenes dudas o necesitas asesoramiento? Charlemos sin compromiso</p>  
                 
                 <form ref={formRef} onSubmit={handleSubmit} >
                     <input style={{backgroundColor: darkMode && "#333",color: darkMode && "ghostwhite"}} type="text"  placeholder="Tu nombre" name="user_name"/>
@@ -71,10 +75,11 @@ const darkMode = theme.state.darkMode
                     <button>Enviar</button>
                     {done && "  Mensaje enviado! Durante el dia recibiras respuesta. Gracias"}
                 </form>
-
             </div>
         </div>
+    
     </div>
+    
     </section>
   )
 }

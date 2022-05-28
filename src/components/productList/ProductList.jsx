@@ -21,8 +21,8 @@ const ProductList = () => {
         <h2 className="pl-title">Proyectos realizados</h2>
         
         <p className="pl-desc">
-          lorem ipsum dolor sit amet, consectetur adip
-          lorem ipsum dolor sit amet, consectetur adip
+        Portfolios profesionales,
+        Sitios web Institucionales, Landing Pages
         </p>
       </div>
       <div className="pl-list" data-aos="fade-up">

@@ -2,6 +2,7 @@ import {useContext} from "react"
 import About from "./components/about/About.jsx";
 import Contact from "./components/contact/Contact.jsx";
 import { ThemeContext, } from "./components/context.js";
+import Footer from "./components/footer/Footer.jsx";
 import Intro from "./components/intro/Intro.jsx"
 import ProductList from "./components/productList/ProductList.jsx";
 import Services from "./components/services/Services.jsx";
@@ -19,6 +20,7 @@ const darkMode = theme.state.darkMode
     <Services/>
     <ProductList/>
     <Contact/>
+    <Footer/>
   </div>;
 };
 

@@ -7,14 +7,14 @@
 @media screen and (max-width: 468px) {
     .c-bg{
       width: 14px !important ;
-      height: 75% !important;
+      height: 89% !important;
     }
 }
 
 @media (min-width: 768px) and (max-width:1080px){
     .c-bg{
         width: 16px !important ;
-      height: 55% !important;
+      height: 60% !important;
     
  }
 }

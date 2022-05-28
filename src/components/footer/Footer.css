@@ -1,0 +1,24 @@
+footer{
+    background-color: #f9c939;
+    margin: 0rem 0rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+
+}
+.foo-ico{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+
+}
+.foo-down{
+    text-align: center;
+    margin: 1rem;
+    display: flex;
+    align-self: center;
+    gap: 10px;
+    text-decoration: underline;
+    justify-content: center;
+    color: white;
+}

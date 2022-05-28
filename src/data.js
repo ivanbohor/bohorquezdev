@@ -2,7 +2,7 @@ export const products = [
   {
     id: 1,
     img: "https://serving.photos.photobox.com/579940873cec9ba4d45d674ea0955630c5aca72bfd6f0d670feef890ecbca9d6a13c9b3a.jpg",
-    link: "https://ivanbohor.github.io/Arbitt/index.html",
+    link: "https://francisco-cernusco-site.vercel.app/",
   },
   {
     id: 2,
