@@ -2,7 +2,6 @@ import React, { useRef, useState, useContext,useEffect } from 'react';
 import "./Contact.css"
 import "./BarraColor.jsx"
 
-import phone from "../../img/phone.png";
 import email from "../../img/email.png";
 import Whatic from "../../img/what.png"
 import Loca from "../../img/location (2).png"
@@ -49,11 +48,11 @@ const darkMode = theme.state.darkMode
                 </div>
                 <div className="c-info"  data-aos="fade-up">
                     <div className="c-info-item">
-                    <a href="https://wa.me/1123920404?text=Hola+vengo+de+tu+web!" target="_blank"> <img src={Whatic} alt="phone" className="c-icon"/></a>
+                    <a target="_blank" rel="noreferrer"  href="https://wa.me/1123920404?text=Hola+vengo+de+tu+web!"> <img src={Whatic} alt="phone" className="c-icon"/></a>
                         11-2320404
                     </div>
                     <div className="c-info-item">
-                    <a href="mailto:ivan.olivera07@hotmail.com"> <img src={email} alt="email" className="c-icon"/> </a> ivan.olivera07@hotmail.com 
+                    <a target="_blank" rel="noreferrer"  href="mailto:ivan.olivera07@hotmail.com"> <img src={email} alt="email" className="c-icon"/> </a> ivan.olivera07@hotmail.com 
                     </div>
                     <div className="c-info-item">
                         <img src={Loca} width="25" alt="phone" className="c-icon"/>
@@ -66,7 +65,7 @@ const darkMode = theme.state.darkMode
                     <b>Digitalicemos tu marca. </b> Ya sabes como queres que sea tu pagina web? Hagamosla! <br />
                     Tenes dudas o necesitas asesoramiento? Charlemos sin compromiso</p>  
                 
-                <form ref={formRef} onSubmit={handleSubmit} >
+                <form ref={formRef} onSubmit={handleSubmit} rel="noreferrer"  >
                     <input style={{backgroundColor: darkMode && "#333",color: darkMode && "ghostwhite"}} type="text"  placeholder="Tu nombre" name="user_name"/>
                     <input style={{backgroundColor: darkMode && "#333",color: darkMode && "ghostwhite"}}  type="text"  placeholder="Asunto" name="user_subjet"/>
                     <input style={{backgroundColor: darkMode && "#333",color: darkMode && "ghostwhite"}}  type="text"  placeholder="Tu Email" name="email"/>

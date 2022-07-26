@@ -15,7 +15,7 @@ const Footer = () => {
                 <span><img src={Insta}  width="29" alt="redes" /></span>
             </div>
             <p> <a href="#intro" >Ir Arriba </a></p>
-           <a href="https://www.linkedin.com/in/ivanoliverab/" target="_blank"> <span className="foo-down">By Ivan Bohorquez  <img src={Linke} width="25" alt="redes"/> </span> </a>
+           <a target="_blank" rel="noreferrer"  href="https://www.linkedin.com/in/ivanoliverab/"> <span className="foo-down">By Ivan Bohorquez  <img src={Linke} width="25" alt="redes"/> </span> </a>
         </footer>
     </section>
   )
