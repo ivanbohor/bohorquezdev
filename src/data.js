@@ -12,12 +12,12 @@ export const products = [
   {
     id: 3,
     img: "https://serving.photos.photobox.com/87830558d73e10000c98fa10bb5da23ebcdb8ceb55e99ef8d40e8abce4d85d1fb6f86d89.jpg",
-    link: "https://github.com/ivanbohor/Front-end-Porftolio",
+    link: "https://ivan-olivera-bohorquez.vercel.app/",
   },
 
   {
     id: 4,
     img: "https://serving.photos.photobox.com/55845439956d589f2d2e3ce28e253862dadf6858593bdc134b9ac7dafaaec53bfc343d87.jpg",
-    link: "https://ivan-olivera-bohorquez.vercel.app/",
+    link: "https://ivanbohor.github.io/BarEcommerce/",
   },
 ];
