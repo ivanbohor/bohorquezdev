@@ -18,6 +18,6 @@ export const products = [
   {
     id: 4,
     img: "https://serving.photos.photobox.com/55845439956d589f2d2e3ce28e253862dadf6858593bdc134b9ac7dafaaec53bfc343d87.jpg",
-    link: "https://ivanbohor.github.io/BarEcommerce/index.html",
+    link: "https://ivan-olivera-bohorquez.vercel.app/",
   },
 ];
