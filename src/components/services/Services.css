@@ -7,10 +7,16 @@
 .cont-serv{
     width: 100%;
     display: flex;
-    justify-content: space-evenly;    
+   justify-content: space-evenly;    
     flex-wrap: wrap;
+    gap: 3rem;
+    flex-direction: column;
+}
+.con-items{
+    display: flex;
+    align-self: center;
     gap: 1rem;
-   
+    justify-content: center;
 }
 .ico-serv{
     display: flex;
@@ -79,12 +85,16 @@ width:  25%;
 
   
   @media  (min-width: 768px) and (max-width:1024px){
+    .con-items{
+        flex-direction: column;
+        align-items: center;
+
+    }
     .cont-serv{
-        gap: 7rem;
 
     }
     .item-serv{
-        width: 30%;
+        width: 40%;
     }
     }
 
@@ -94,5 +104,10 @@ width:  25%;
     }
     .serv{
         margin-top: 2rem;
+    }
+    .con-items{
+        flex-direction: column;
+        align-items: center;
+
     }
 }

@@ -30,7 +30,7 @@ const Intro = () => {
                         <div className="i-title-item">Programador</div>
                     </div>
                 </div>
-                    <h2 className="text-fly">Despega tu marca</h2>
+                    <h2 className="text-fly">Despeguemos tu marca!</h2>
                     <h2 className="text-fly2">Amplia tu presencia en internet mediante una web moderna
                     y actualizada, que atraiga a tu publico objetivo y genere confianza.</h2>
                 <div className="text-yel" data-aos="fade-down-right">

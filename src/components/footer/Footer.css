@@ -22,3 +22,12 @@ footer{
     justify-content: center;
     color: white;
 }
+span img{
+    border-radius: 20px;
+}
+span img:hover{
+transform: scale(1.1,1.1)
+}
+p a{
+    text-decoration: none;
+}

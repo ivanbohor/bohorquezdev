@@ -49,12 +49,11 @@ const darkMode = theme.state.darkMode
                 </div>
                 <div className="c-info"  data-aos="fade-up">
                     <div className="c-info-item">
-                        <img src={Whatic} alt="phone" className="c-icon"/>
-                        112342424
+                    <a href="https://wa.me/1123920404?text=Hola+vengo+de+tu+web!" target="_blank"> <img src={Whatic} alt="phone" className="c-icon"/></a>
+                        11-2320404
                     </div>
                     <div className="c-info-item">
-                        <img src={email} alt="email" className="c-icon"/>
-                        ivan.oliveraetcetc
+                    <a href="mailto:ivan.olivera07@hotmail.com"> <img src={email} alt="email" className="c-icon"/> </a> ivan.olivera07@hotmail.com 
                     </div>
                     <div className="c-info-item">
                         <img src={Loca} width="25" alt="phone" className="c-icon"/>

@@ -46,6 +46,7 @@
      letter-spacing:10px;
      align-self: center;
      text-decoration-line: underline;
+     text-align: center;
 
 }
 .i-title{
@@ -237,16 +238,17 @@ width: 20%;
 .text-fly2{
     display: none;
 }
-
+.button-intro{
+    width: 23%;
+}
+.button-intro-dos{
+    width: 22%;
+}
     
 }
-@media (min-width: 1024px) and (max-width:1200px){
-    .i{
-height: auto;  
-  }
-  .i-left-wrapper{
-      padding: 30px;
-  }
+@media (min-width: 1025px) and (max-width:1200px){
+
+ 
   .text-fly2 {
       display: none;
   }
@@ -269,4 +271,5 @@ height: auto;
     .c-bg {
         height: 80% !important;
     }
+    
 }

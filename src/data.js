@@ -1,7 +1,7 @@
 export const products = [
   {
     id: 1,
-    img: "https://serving.photos.photobox.com/579940873cec9ba4d45d674ea0955630c5aca72bfd6f0d670feef890ecbca9d6a13c9b3a.jpg",
+    img: "https://serving.photos.photobox.com/0505358909184628ee20e9c7b204ca3504da5aba8dfe962033f2d61a8b9a8098bdb9ac12.jpg",
     link: "https://francisco-cernusco-site.vercel.app/",
   },
   {
@@ -11,13 +11,13 @@ export const products = [
   },
   {
     id: 3,
-    img: "https://serving.photos.photobox.com/55845439956d589f2d2e3ce28e253862dadf6858593bdc134b9ac7dafaaec53bfc343d87.jpg",
-    link: "https://ivanbohor.github.io/BarEcommerce/index.html",
+    img: "https://serving.photos.photobox.com/87830558d73e10000c98fa10bb5da23ebcdb8ceb55e99ef8d40e8abce4d85d1fb6f86d89.jpg",
+    link: "https://github.com/ivanbohor/Front-end-Porftolio",
   },
 
   {
     id: 4,
-    img: "https://serving.photos.photobox.com/34629207c72b518cbab64168810945bf7661c6871294b679130e70a768eee1083cc2d0b7.jpg",
-    link: "https://ivanbohor.github.io/Arbitt/index.html",
+    img: "https://serving.photos.photobox.com/55845439956d589f2d2e3ce28e253862dadf6858593bdc134b9ac7dafaaec53bfc343d87.jpg",
+    link: "https://ivanbohor.github.io/BarEcommerce/index.html",
   },
 ];

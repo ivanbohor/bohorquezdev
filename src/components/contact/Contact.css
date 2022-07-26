@@ -32,6 +32,9 @@ margin:50px 0px;
 font-weight: 300;
 width: 70%;
 }
+.c-info-item a:hover {
+    transform: scale(1.1,1.1);
+}
 .c-icon{
     width: 30px;
     height: 30px;
@@ -86,6 +89,7 @@ button{
     .c-info{
         width: 100%;
         display: flex;
+        flex-direction: column;
     }
     .c-wrapper {
         flex-direction: column;
@@ -99,10 +103,9 @@ button{
         font-size: 23px;
     }
     .c-info-item{
-        margin: 20px 0px;
-        width: 100%;
-        flex-wrap: wrap;
-        justify-content: center;
+        width: auto;
+        margin:0rem;
+        justify-content: flex-start;
         }
     form{
         margin-top: 0px;
@@ -117,7 +120,7 @@ button{
         margin: 10px;
     }
     .c-icon{
-        padding: 0.7rem;
+        margin: 0.5rem;
     }
 
 

@@ -17,8 +17,9 @@ const Services = () => {
 }, [])
   return (
     <div className="serv">
-        <h2 className="pl-title" >Servicios</h2>
-    <div className="cont-serv" style={{marginTop:40}}>
+    <div className="cont-serv" >
+    <h2 className="pl-title" >Servicios</h2>
+    <div className="con-items">
         <div className="item-serv shadow-pop-bl ov-btn-slide-top" data-aos="fade-up" >
                 <div className="ico-serv" > 
                 <img src={Desi2} alt="design" />
@@ -52,9 +53,8 @@ const Services = () => {
 
             </div>
          </div>
+        </div>
     </div>
-    
-    
     </div>
   )
 }
